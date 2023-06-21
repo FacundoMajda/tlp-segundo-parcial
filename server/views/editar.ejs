@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <div class="row mt-5">
+    <h1 class="text-center border-botton">Editar Reserva</h1>
+    <div class="col">
+      <form method="POST" action="/reservas/<%= reserva.id %>?_method=PUT">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            name="nombre"
+            value="<%= reserva.nombre %>"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="codigo" class="form-label">Codigo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="codigo"
+            name="codigo"
+            value="<%= reserva.codigo %>"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="fecha" class="form-label">Fecha</label>
+          <input
+            type="date"
+            class="form-control"
+            id="fecha"
+            name="fecha"
+            value="<%= reserva.fecha %>"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Editar</button>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('partials/footer') %>
