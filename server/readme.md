@@ -1,5 +1,10 @@
 # Reservas de Aeropuertos
 
+# Segundo Parcial TLP - IPF
+
+Alumno: Facundo A. Majda.
+
+
 Servidor Node.js para gestionar reservas utilizando una base de datos MySQL. Permite realizar operaciones CRUD (crear, leer, actualizar, eliminar) en reservas.
 
 ## Instalación
