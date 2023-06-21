@@ -4,7 +4,6 @@
 
 Alumno: Facundo A. Majda.
 
-
 Servidor Node.js para gestionar reservas utilizando una base de datos MySQL. Permite realizar operaciones CRUD (crear, leer, actualizar, eliminar) en reservas.
 
 ## Instalación
@@ -47,10 +46,12 @@ Asegúrate de reemplazar `'username'` y `'password'` con las credenciales correc
 5. Crea la base de datos en MySQL con el nombre especificado en la variable `DB_NAME` del archivo `.env`.
 
 6. Ejecuta el servidor:
+
 ```
 npm start
 
 ```
+
 ```
 npm run dev
 
@@ -65,8 +66,8 @@ npm run dev
 - `models/Reserva.js`: Definición del modelo de datos para las reservas.
 - `controllers/reserva.controller.js`: Controladores para las operaciones CRUD de las reservas.
 - `routes/reserva.routes.js`: Rutas para las diferentes acciones relacionadas con las reservas.
-- `public/`: Directorio para archivos estáticos 
-- `views/`: Directorio para las vistas HTML 
+- `public/`: Directorio para archivos estáticos
+- `views/`: Directorio para las vistas HTML
 - `.env`: Archivo de variables de entorno para la configuración del proyecto.
 - `README.md`: Documentación del proyecto.
 
@@ -105,4 +106,3 @@ Se desarrollaron las vistas para crear y editar una nueva reserva.
 Se utilizó JavaScript para obtener los datos del servidor, así como para editarlos y eliminarlos.
 
 ---
-
