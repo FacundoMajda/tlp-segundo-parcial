@@ -18,15 +18,12 @@ git clone https://github.com/FacundoMajda/tlp-segundo-parcial
 
 ```
 cd nombre_del_directorio
-
 ```
 
 3. Instala las dependencias:
 
 ```
 npm install
-
-
 ```
 
 4. Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno según tus necesidades. Puedes utilizar el archivo `.env.example` como base:
